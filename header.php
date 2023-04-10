@@ -11,21 +11,14 @@
 </head>
 <body>
     <header>
-    <div class="drop">
-        <!--<a href="#" class="hamburger"><i class="material-icons">dehaze</i></a> check menu-->
-        <a href="#" class="hamburger"><img class="material-icons" src="/image/hamburger.png" alt="hamburger menu"></a>
-    </div> 
-    <h1 class="title-menu">Halifax Canoe and Kayak</h1>
-    <div class="top-logo">   
-        <img src="image/paddle-white.png" alt="paddlers">
-    </div>
- </header>
- <nav class="sub-menu">
-    <a href="/">Home</a>
-    <a href="book.php">Book Tour</a>
-    <a href="admin.php">Admin Login</a>
-    <a href="contact.php">Contact</a>
+        <div class="drop">
+            <a href="/" class="hamburger"><img class="material-icons" src="/image/hamburger.png" alt="hamburger menu"></a>
+        </div> 
+        <h1 class="title-menu">Halifax Canoe and Kayak</h1>
+        <div class="top-logo">   
+            <img src="image/paddle-white.png" alt="paddlers">
+        </div>
+    </header>
 </nav>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="/script.js"></script>
+</body>
 </html>

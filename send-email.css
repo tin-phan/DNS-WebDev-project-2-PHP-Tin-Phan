@@ -1,19 +1,7 @@
-ul a:link {
-    text-decoration: none;
-    color: #0000ff;
-   }
-ul a:visited {
-    text-decoration: none;
-    color: #e53935;
-   }
-
-ul li{
-    list-style:none;
-    padding: 0 0 10px 0;
-}
-
-ul li a {
-    padding-left: 20px;
+.message {
+    text-align: justify;
+    font-size: 14px;
+    margin: 20px 30px;
 }
 
 .logout {

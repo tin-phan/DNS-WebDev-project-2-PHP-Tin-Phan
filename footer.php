@@ -10,10 +10,13 @@
     <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
 </head>
     <footer>
+    <div class = "futer">
+        <div >
         <p class="footer-info">Copyright &copy;2021 by Tin Phan</p>
+        </div>
         <div class="footer-menu">
-            <a href="admin.php">Admin Login</a>
-            <a href="contact.php">Contact</a>
+            <a href="/">Admin Login</a> |
+            <a href="/">Contact</a>
         </div>
     </footer>
 </html>
