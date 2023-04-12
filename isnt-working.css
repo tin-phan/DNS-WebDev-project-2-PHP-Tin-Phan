@@ -5,13 +5,13 @@
 
 input .notworking[type="email"], textarea .notworking {
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 5px;
     border: none;
     width: 100%;
     max-width: 500px;
 }
-textarea .notworking {
+ textarea {
     height: 200px;
     resize: vertical;
 }
@@ -28,14 +28,17 @@ textarea .notworking {
     background-color: #444;
 }
 
-label .notworking{
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.notworking label {
+    font-size: 14px;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
+.notworking label[for="email"]{
+    font-size: 14px;
+    display: inline;
+    text-align: left;
+}
 .logout {
     position: absolute;
     top: 60px;

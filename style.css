@@ -149,14 +149,21 @@ footer {
         font-size: 80%;
         }
 
+    ul li a{
+        font-size: 80%;
+    }
+
     .form {
         width:80%;
     }
-    .form select, .form input[type="text"], .form input[type="submit"] {
+   .form select, .form input[type="text"], .form input[type="submit"] {
         width:80%;
-        font-size: 75%;
+        font-size: 70%;
     }
 
+    input[type="submit"]{
+        font-size: 80%;
+    }
     .call {
         font-size: 80%;
     }
@@ -168,19 +175,26 @@ footer {
     
     .notworking {
         width:80%;
-        font-size: 75%;
+        font-size: 80%;
     }
     .notworking textarea {
     width: 80%;
     }
 
+    .notworking label {
+        font-size: 90%;
+    }
+
+    .notworking label[for="email"]{
+        font-size: 90%;
+    }
     .lostpassword {
         width:80%;
         font-size: 80%;
     }
 
     .lostpassword label {
-        font-size: 80%;
+        font-size: 90%;
     }
 
     .newaccount {
@@ -188,14 +202,17 @@ footer {
         font-size: 80%;
     }
     
-    .newaccount label {
-        font-size: 80%;
+   .newaccount label {
+        font-size: 90%;
     }
 
     .logout {
         font-size: 80%;
     }
     
+    .message {
+        font-size: 80%;
+    }
     .footer-info{
         font-size: 80%;
         }
